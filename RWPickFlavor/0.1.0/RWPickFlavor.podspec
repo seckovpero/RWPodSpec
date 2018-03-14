@@ -31,7 +31,7 @@ s.homepage = "https://github.com/seckovpero/Primer"
 s.source = { :git => "https://github.com/seckovpero/Primer.git", :tag => "#{s.version}"}
 
 # For example,
-# s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
+# s.source = { :path => "~/Desktop/RWPickFlavor.zip", :tag => "#{s.version}"}
 
 
 # 7
@@ -40,7 +40,7 @@ s.dependency 'Masonry'
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{h,m}"
+s.source_files = "RWPickFlavor/**/*.{h}"
 
 # 9
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
